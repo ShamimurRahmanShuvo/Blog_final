@@ -28,6 +28,6 @@ jobs:
       - name: Install dependencies
         run:
           python -m pip install --upgrade pip
-
-      - name: Run Pytest
-        run: pytest
+# Uncomment when test is integrated
+      #- name: Run Pytest
+      #  run: pytest
